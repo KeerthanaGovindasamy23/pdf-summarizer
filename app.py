@@ -3,7 +3,7 @@ import fitz # This is the PyMuPDF library (The PDF Reader)
 import google.generativeai as genai # This is the Gemini library (The Brain)
 
 # 1. Setup the AI Brain
-genai.configure(api_key="GEMINI_API_KEY") # You get this from AI Studio
+genai.configure(api_key="AIzaSyB3dPtooPw64Ifefr3V_Vz9Nbyg3Zqln7k") # You get this from AI Studio
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 # 2. Create the Website Layout (The "Face")
